@@ -56,9 +56,9 @@ revealElements.forEach((element) => {
 });
 /* ===== MY EARNINGS ===== */
 
-const totalEarnings = 0; // Change this to your total TND
-const websitesSold = 0;  // Change this when you sell a website
-const projectsCount = 0; // Change this when you complete a project
+const totalEarnings = 600; // Change this to your total TND
+const websitesSold = 2;  // Change this when you sell a website
+const projectsCount = 2; // Change this when you complete a project
 
 document.getElementById("totalEarnings").textContent = totalEarnings;
 document.getElementById("websitesSold").textContent = websitesSold;
