@@ -782,3 +782,16 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+.contact-details {
+    margin-top: 20px;
+}
+
+.contact-details a {
+    color: #999;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.contact-details a:hover {
+    color: white;
+}
