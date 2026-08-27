@@ -54,3 +54,18 @@ revealElements.forEach((element) => {
     element.classList.add("reveal");
     observer.observe(element);
 });
+/* ===== MY EARNINGS ===== */
+
+const totalEarnings = 0; // Change this to your total TND
+const websitesSold = 0;  // Change this when you sell a website
+const projectsCount = 0; // Change this when you complete a project
+
+document.getElementById("totalEarnings").textContent = totalEarnings;
+document.getElementById("websitesSold").textContent = websitesSold;
+document.getElementById("projectsCount").textContent = projectsCount;
+
+const goal = 1000;
+const percentage = Math.min((totalEarnings / goal) * 100, 100);
+
+document.getElementById("goalProgress").textContent = totalEarnings;
+document.getElementById("progressFill").style.width = percentage + "%";
