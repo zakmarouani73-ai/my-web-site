@@ -772,4 +772,13 @@ footer {
         flex-direction: column;
         gap: 25px;
     }
+}.reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity .8s ease, transform .8s ease;
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
